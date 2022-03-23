@@ -1,0 +1,689 @@
+{
+"Ads": [
+{
+
+//  STATUS_APP = "0" must set 0 if your app still live on playstore
+//  and STATUS_APP = "1" if your app "suspend"
+//  fill LINK_REDIRECT with new link app
+"STATUS_APP" : "0",
+"LINK_REDIRECT" : "https://play.google.com/store/apps/details?id=com.package.name",
+
+// memanggil data dari json "online" atau json "offline"
+//  online atau offline
+// jika online maka akan memanggil data mp3 wallpaper yang ada di json online kalian
+//  jika offline maka akan mmanggil data mp3 wallpaper yang ada di json folder asset
+// online offline huruf kecil
+"MODE_MP3_ONLINE_OFFLINE" : "online",
+
+
+"MODE_BACKUP_ADS" : true,
+"MODE_NO_ADS" : true,
+"ADS_ON_START" : false, // CTR NAIK PESAT
+"ADS_ON_EXIT_DIALOG" : true, // CTR NAIK PESAT
+
+"JSON_POPUP_WAIT" : "Server Json Ready . . .",
+"MODE_NO_ADS_TRUE" : "Pro Version Actived",
+
+// PENGATURAN IKLAN
+// ADMOB      backup unity backup startapp
+// FAN        backup unity backup startapp
+// UNITY      backup startapp
+// TAPDAQ     backup unity backup startapp
+"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_UNITY" : false,
+"PENGATURAN_IKLAN_BANNER" : "ADMOB",
+"PENGATURAN_IKLAN_INTER" : "ADMOB",
+"INTER_COUNT" : 20,
+
+"ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
+"ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
+"ADMOB_OPENADS" : "BIARKAN KOSONG",
+
+"FAN_INTER" : "YOUR_PLACEMENT_ID",
+"FAN_BANNER" : "YOUR_PLACEMENT_ID",
+
+"UNITY_BANNER" : "banner",
+"UNITY_INTERSTITIAL" : "interstitial",
+"UNITY_GAME_ID" : "12345",
+
+"STARTAPPID" : "123154",
+"ENABLE_STRAP" : true,
+"ENABLE_STRAP_SPLAHSCREEN" : false,
+
+"TAPDAQ_APP_ID" : "6120a5b008fe6c2d735d6a78",
+"TAPDAQ_CLIENT_KEY" : "fb5af849-b396-473b-a139-eecc9c3a4716",
+
+//  Exit Dialog
+//  Bantu Rating 5 bintang agar kami dapat terus memberikan informasi informasi terbaru
+//  help give us a 5 star rating, so we keep the spirit of providing the latest updates
+//  jika shre button "true" maka more button berubah fungsi menjadi share - more url hilang menjadi share
+"EXIT_POPUP_DIALOG" : "
+help give us a 5 star rating
+
+so we keep the spirit of providing the latest updates
+
+click rate now button
+",
+"RATE_BUTTON" : "Rate Now",
+"LATER_BUTTON" : "Rate Later",
+"ENABLE_SHARE_BUTTON" : true,
+"SHARE_TXT" : "
+this the best apps ever, ive try it and so awesome
+
+you need to try download this too bro
+",
+"MORE_BUTTON" : "Share Via Whatsapp",
+"URL_MORE_APPS" : "https://play.google.com/store/apps/details?id=com.package.name"
+
+}
+]
+,"Mp3": [
+  {    "name_mp3": "001 - Pink Floyd - Comfortably Numb",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/001 - Pink Floyd - Comfortably Numb (Live from Pulse DVD).mp3"  },
+ 
+  {    "name_mp3": "002 - Pink Floyd - Learning to Fly",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/002 - Pink Floyd - Learning to Fly.mp3"  },
+ 
+  {    "name_mp3": "003 - Pink Floyd - Coming Back To Life",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/003 - Pink Floyd - Coming Back To Life.mp3"  },
+ 
+  {    "name_mp3": "005 - Nicole Kidman & Ewan McGregor - Come What May",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/005 - Nicole Kidman %26 Ewan McGregor - Come What May_.mp3"  },
+ 
+  {    "name_mp3": "006- The Beatles - Lucy In The Sky With Diamonds",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/006- The Beatles - Lucy In The Sky With Diamonds.mp3"  },
+ 
+  {    "name_mp3": "007-Guns n' Roses - November Rain",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/007-Guns n' Roses - November Rain.mp3"  },
+ 
+  {    "name_mp3": "008 - Frank Sinatra - My Way",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/008 - Frank Sinatra - My Way.mp3"  },
+ 
+  {    "name_mp3": "009 - Paul Anka - Papa",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/009 - Paul Anka - Papa.mp3"  },
+ 
+  {    "name_mp3": "010 - Neil Young - Like A Hurricane",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/010 - Neil Young - Like A Hurricane.mp3"  },
+ 
+  {    "name_mp3": "011- Keane - Somewhere Only We Know",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/011- Keane - Somewhere Only We Know.mp3"  },
+ 
+  {    "name_mp3": "013 - Snow Patrol - Run",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/013 - Snow Patrol - Run.mp3"  },
+ 
+  {    "name_mp3": "014 - Kate Bush - Wuthering Heights",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/014 - Kate Bush - Wuthering Heights.mp3"  },
+ 
+  {    "name_mp3": "015 - Nancy Sinatra - Bang Bang",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/015 - Nancy Sinatra - Bang Bang.mp3"  },
+ 
+  {    "name_mp3": "016 - Berlin - Take My Breathe Away",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/016 - Berlin - Take My Breathe Away.mp3"  },
+ 
+  {    "name_mp3": "017 - Oasis - Dont Look Back In Anger",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/017 - Oasis - Dont Look Back In Anger.mp3"  },
+ 
+  {    "name_mp3": "018 - Keane - Bad Dream",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/018 - Keane - Bad Dream.mp3"  },
+ 
+  {    "name_mp3": "019 - ColdPlay - In My Place",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/019 - ColdPlay - In My Place.mp3"  },
+ 
+  {    "name_mp3": "020 - ColdPlay - Yellow",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/020 - ColdPlay - Yellow.mp3"  },
+ 
+  {    "name_mp3": "021. Supertramp - The Logical Song",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/021. Supertramp - The Logical Song.mp3"  },
+ 
+  {    "name_mp3": "022-backstreet boys-everybody (backstreets back)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/022-backstreet_boys-everybody_(backstreets_back).mp3"  },
+ 
+  {    "name_mp3": "023-Bobby McFerrin - Don't Worry Be Happy",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/023-Bobby McFerrin - Don't Worry Be Happy.mp3"  },
+ 
+  {    "name_mp3": "024-Boomtown Rats%3DI Don't Like Mondays",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/024-Boomtown Rats%3DI Don't Like Mondays.mp3"  },
+ 
+  {    "name_mp3": "025-Dire Straits-sultans of swing.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/025-Dire Straits-sultans of swing..mp3"  },
+ 
+  {    "name_mp3": "027-Pet Shop Boys-Go West.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/027-Pet Shop Boys-Go West..mp3"  },
+ 
+  {    "name_mp3": "028-Prince & The Reticulation- Purple rain.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/028-Prince %26 The Reticulation- Purple rain..mp3"  },
+ 
+  {    "name_mp3": "029-R.E.M-Every body hurts",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/029-R.E.M-Every body hurts.mp3"  },
+ 
+  {    "name_mp3": "030- Simon & Garfunkel - Mrs. Robinson",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/030- Simon %26 Garfunkel - Mrs. Robinson.mp3"  },
+ 
+  {    "name_mp3": "031-Train - Drops of Jupiter.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/031-Train - Drops of Jupiter..mp3"  },
+ 
+  {    "name_mp3": "033-The Cars-Drive",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/033-The Cars-Drive.mp3"  },
+ 
+  {    "name_mp3": "034-Aerosmith - I don`t want to miss a thing.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/034-Aerosmith - I don`t want to miss a thing..mp3"  },
+ 
+  {    "name_mp3": "035-Hot Chocolate - Love Is Life",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/035-Hot Chocolate - Love Is Life.mp3"  },
+ 
+  {    "name_mp3": "036-The Beatles- Let it be",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/036-The Beatles- Let it be.mp3"  },
+ 
+  {    "name_mp3": "037 - Bob Dylan - Baby, stop crying",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/037 - Bob Dylan - Baby%2C stop crying.mp3"  },
+ 
+  {    "name_mp3": "038-Robbie Williams - Angels.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/038-Robbie Williams - Angels..mp3"  },
+ 
+  {    "name_mp3": "039-Bob Dylan - Is your love in vain.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/039-Bob Dylan - Is your love in vain..mp3"  },
+ 
+  {    "name_mp3": "040-10CC - I'm Not In Love.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/040-10CC - I'm Not In Love..mp3"  },
+ 
+  {    "name_mp3": "041-Peter Gabriel - Sledgehammer.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/041-Peter Gabriel - Sledgehammer..mp3"  },
+ 
+  {    "name_mp3": "042-Peter Gabriel - Book of love.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/042-Peter Gabriel - Book of love..mp3"  },
+ 
+  {    "name_mp3": "043-The Clash-Should I Stay Or Should I Go.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/043-The Clash-Should I Stay Or Should I Go..mp3"  },
+ 
+  {    "name_mp3": "044-Procol Harum- A Whiter Shade Of Pale -",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/044-Procol Harum- A Whiter Shade Of Pale -.mp3"  },
+ 
+  {    "name_mp3": "045 - Aerosmith - Jaded",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/045 - Aerosmith - Jaded.mp3"  },
+ 
+  {    "name_mp3": "046-- Ben E. King - Stand By Me",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/046--_Ben_E._King_-_Stand_By_Me.mp3"  },
+ 
+  {    "name_mp3": "047- James Brown-It's Man's Man's Man's World.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/047- James Brown-It's Man's Man's Man's World..mp3"  },
+ 
+  {    "name_mp3": "048-Oasis-Wonderwall.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/048-Oasis-Wonderwall..mp3"  },
+ 
+  {    "name_mp3": "049-R.E.M. - Losing My Religion",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/049-R.E.M. - Losing My Religion.mp3"  },
+ 
+  {    "name_mp3": "050-the righteous brothers--unchained melody-oma",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/050-the_righteous_brothers--unchained_melody-oma.mp3"  },
+ 
+  {    "name_mp3": "051-underworld--born slippy-oma",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/051-underworld--born_slippy-oma.mp3"  },
+ 
+  {    "name_mp3": "052 - Ian Dury And The Blockheads - Hit Me With Your Rhythm Stick",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/052 - Ian Dury And The Blockheads - Hit Me With Your Rhythm Stick.mp3"  },
+ 
+  {    "name_mp3": "053. Moody Blues - Nights In White Satin",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/053. Moody Blues - Nights In White Satin.mp3"  },
+ 
+  {    "name_mp3": "054 - Berlin - Take My Breathe Away (Dub)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/054 - Berlin - Take My Breathe Away (Dub).mp3"  },
+ 
+  {    "name_mp3": "055-Pink floyd- Sorrow.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/055-Pink floyd- Sorrow..mp3"  },
+ 
+  {    "name_mp3": "056-Stealers Wheel - Late Again.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/056-Stealers Wheel - Late Again..mp3"  },
+ 
+  {    "name_mp3": "057--cher--the shoop shoop song (its in his kiss)-oma",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/057--cher--the_shoop_shoop_song_(its_in_his_kiss)-oma.mp3"  },
+ 
+  {    "name_mp3": "058-gerry rafferty-baker street.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/058-gerry rafferty-baker street..mp3"  },
+ 
+  {    "name_mp3": "059-ACDC - You Shook Me All Night Long.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/059-ACDC - You Shook Me All Night Long..mp3"  },
+ 
+  {    "name_mp3": "060-Bob Dylan - Changing of the guards.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/060-Bob Dylan - Changing of the guards..mp3"  },
+ 
+  {    "name_mp3": "061 - Shirley Bassey - Something",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/061 - Shirley Bassey - Something.mp3"  },
+ 
+  {    "name_mp3": "062-Bob Dylan-Where Are You Tonight",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/062-Bob Dylan-Where Are You Tonight.mp3"  },
+ 
+  {    "name_mp3": "063-KC & The Sunshine Band - Shake Your Booty",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/063-KC %26 The Sunshine Band - Shake Your Booty.mp3"  },
+ 
+  {    "name_mp3": "064-ACDC - Highway To Hell.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/064-ACDC - Highway To Hell..mp3"  },
+ 
+  {    "name_mp3": "065- Rolling Stones - Paint It, Black",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/065- Rolling Stones - Paint It%2C Black.mp3"  },
+ 
+  {    "name_mp3": "066-Aerosmith - Dream On.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/066-Aerosmith - Dream On..mp3"  },
+ 
+  {    "name_mp3": "067 - Aerosmith - Walk This Way (Run-D.M.C.)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/067 - Aerosmith - Walk This Way (Run-D.M.C.).mp3"  },
+ 
+  {    "name_mp3": "068-Dire Straits - Walk Of Life.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/068-Dire Straits - Walk Of Life..mp3"  },
+ 
+  {    "name_mp3": "069-gabrielle--out of reach",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/069-gabrielle--out_of_reach.mp3"  },
+ 
+  {    "name_mp3": "070-donna summer--hot stuff-oma",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/070-donna_summer--hot_stuff-oma.mp3"  },
+ 
+  {    "name_mp3": "071-Chris De Burgh-Lady in red.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/071-Chris De Burgh-Lady in red..mp3"  },
+ 
+  {    "name_mp3": "072-Fugees-Killing me softly.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/072-Fugees-Killing me softly..mp3"  },
+ 
+  {    "name_mp3": "073-The cranberries-Zombie.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/073-The cranberries-Zombie..mp3"  },
+ 
+  {    "name_mp3": "074- Jennifer Rush-The Power of love.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/074- Jennifer Rush-The Power of love..mp3"  },
+ 
+  {    "name_mp3": "075-Boyzone-Words.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/075-Boyzone-Words..mp3"  },
+ 
+  {    "name_mp3": "076 - Medicine Man",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/076 - Medicine Man.mp3"  },
+ 
+  {    "name_mp3": "077- Barclay James Harvest- Child Of The Universe.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/077- Barclay James Harvest- Child Of The Universe..mp3"  },
+ 
+  {    "name_mp3": "078-Barclay James Harvest- Crazy City.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/078-Barclay James Harvest- Crazy City..mp3"  },
+ 
+  {    "name_mp3": "079-Barclay James Harvest-Paper Wings",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/079-Barclay James Harvest-Paper Wings.mp3"  },
+ 
+  {    "name_mp3": "080-Barclay James Harvest-For No One.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/080-Barclay James Harvest-For No One..mp3"  },
+ 
+  {    "name_mp3": "081-Barclay James Harvest-Suicide.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/081-Barclay James Harvest-Suicide..mp3"  },
+ 
+  {    "name_mp3": "082-Barclay James Harvest- Love Is Like A Violin.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/082-Barclay James Harvest- Love Is Like A Violin..mp3"  },
+ 
+  {    "name_mp3": "083-Barclay James Harvest- Mocking Bird.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/083-Barclay James Harvest- Mocking Bird..mp3"  },
+ 
+  {    "name_mp3": "084 - Moby - Why Does My Heart Feel So Bad",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/084 - Moby - Why Does My Heart Feel So Bad.mp3"  },
+ 
+  {    "name_mp3": "085-The Verve-Bitter Sweet Symphony.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/085-The Verve-Bitter Sweet Symphony..mp3"  },
+ 
+  {    "name_mp3": "086 - Madonna - Hung Up",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/086 - Madonna - Hung Up.mp3"  },
+ 
+  {    "name_mp3": "087-Tina Turner-The Best.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/087-Tina Turner-The Best..mp3"  },
+ 
+  {    "name_mp3": "088 - Eric Clapton - Tears in Heaven",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/088 - Eric Clapton - Tears in Heaven.mp3"  },
+ 
+  {    "name_mp3": "089 - John Lennon - Imagine",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/089 - John Lennon - Imagine.mp3"  },
+ 
+  {    "name_mp3": "090 - Michael Jackson - Belly Jeans",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/090 - Michael Jackson - Belly Jeans.mp3"  },
+ 
+  {    "name_mp3": "091 - Michael Jackson - Man In the Mirror",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/091 - Michael Jackson - Man In the Mirror.mp3"  },
+ 
+  {    "name_mp3": "092 - Michael Jackson - Black & White",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/092 - Michael Jackson - Black %26 White.mp3"  },
+ 
+  {    "name_mp3": "093 - Muze - Resistance",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/093 - Muze - Resistance.mp3"  },
+ 
+  {    "name_mp3": "094 - The Killers - Mr Brightside",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/094 - The Killers - Mr Brightside.mp3"  },
+ 
+  {    "name_mp3": "095 - The Killers - Somebody Told Me",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/095 - The Killers - Somebody Told Me.mp3"  },
+ 
+  {    "name_mp3": "096 - McFly - All About You",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/096 - McFly - All About You.mp3"  },
+ 
+  {    "name_mp3": "097 - Abba - Dancing Queen",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/097 - Abba - Dancing Queen.mp3"  },
+ 
+  {    "name_mp3": "098 - Abba - Winner Takes It All",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/098 - Abba - Winner Takes It All.mp3"  },
+ 
+  {    "name_mp3": "099 - The Beatles - Yesterday",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/099 - The Beatles - Yesterday.mp3"  },
+ 
+  {    "name_mp3": "100 - The Eagles - Hotel California",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/100 - The Eagles - Hotel California.mp3"  },
+ 
+  {    "name_mp3": "101 - Ottawan - D.I.S.C.O",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/101 - Ottawan - D.I.S.C.O.mp3"  },
+ 
+  {    "name_mp3": "102 - 4 Non Blondes - Whats Up",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/102 - 4 Non Blondes - Whats Up.mp3"  },
+ 
+  {    "name_mp3": "103-Nena - 99 Red Balloons.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/103-Nena - 99 Red Balloons..mp3"  },
+ 
+  {    "name_mp3": "104 - Lana Del Rey - Young & Beautifu",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/104 - Lana Del Rey - Young %26 Beautifu.mp3"  },
+ 
+  {    "name_mp3": "105-THE RUBBETES - SUGAR BABY LOVe.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/105-THE RUBBETES - SUGAR BABY LOVe..mp3"  },
+ 
+  {    "name_mp3": "106-ROSE ROYCE - CAR WASH",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/106-ROSE ROYCE - CAR WASH.mp3"  },
+ 
+  {    "name_mp3": "107-GLORIA GAYNOR - I WILL SURVIVE",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/107-GLORIA GAYNOR - I WILL SURVIVE.mp3"  },
+ 
+  {    "name_mp3": "108-DONNA SUMMER - LOVE TO LOVE YOU BABY",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/108-DONNA SUMMER - LOVE TO LOVE YOU BABY.mp3"  },
+ 
+  {    "name_mp3": "109-  SISTER SLEDGE - WE ARE FAMILY",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/109-_ SISTER SLEDGE - WE ARE FAMILY.mp3"  },
+ 
+  {    "name_mp3": "110-MICHAEL ZAGER - LET'S ALL CHANT",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/110-MICHAEL ZAGER - LET'S ALL CHANT.mp3"  },
+ 
+  {    "name_mp3": "111 - Kc & The Sunshine Band - That's The Way I Like It",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/111 - Kc %26 The Sunshine Band - That's The Way I Like It.mp3"  },
+ 
+  {    "name_mp3": "112-EARTH WIND & FIRE - SEPTEMBER",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/112-EARTH WIND %26 FIRE - SEPTEMBER.mp3"  },
+ 
+  {    "name_mp3": "113-  BARRY WHITE - YOU'RE MY FIRST, MY LAST MY EVERYTHING",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/113-_ BARRY WHITE - YOU'RE MY FIRST%2C MY LAST MY EVERYTHING.mp3"  },
+ 
+  {    "name_mp3": "114. Chic - Le Freak",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/114. Chic - Le Freak.mp3"  },
+ 
+  {    "name_mp3": "115-  AMII STEWART - KNOCK ON WOOD",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/115-_ AMII STEWART - KNOCK ON WOOD.mp3"  },
+ 
+  {    "name_mp3": "116-  CARL DOUGLAS - KUNG FU FIGHTING",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/116-_ CARL DOUGLAS - KUNG FU FIGHTING.mp3"  },
+ 
+  {    "name_mp3": "117-ANITA WARD - RING MY BEL",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/117-ANITA WARD - RING MY BEL.mp3"  },
+ 
+  {    "name_mp3": "118-KC & The Sunshine Band - Get Down Tonight",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/118-KC %26 The Sunshine Band - Get Down Tonight.mp3"  },
+ 
+  {    "name_mp3": "119-A-Ha-Take On Me",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/119-A-Ha-Take On Me.mp3"  },
+ 
+  {    "name_mp3": "120-Baltimora-Tarzan Boy",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/120-Baltimora-Tarzan Boy.mp3"  },
+ 
+  {    "name_mp3": "121-Bananarama - Venus",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/121-Bananarama_-_Venus.mp3"  },
+ 
+  {    "name_mp3": "122-Bangles-Walk Like An Egyptian",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/122-Bangles-Walk Like An Egyptian.mp3"  },
+ 
+  {    "name_mp3": "123-Bee Gees-Stayin Alive",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/123-Bee Gees-Stayin Alive.mp3"  },
+ 
+  {    "name_mp3": "124-Belinda Carlisle- Heaven Is A Place On Earth",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/124-Belinda Carlisle- Heaven Is A Place On Earth.mp3"  },
+ 
+  {    "name_mp3": "125-Lionle Richle-Three time A Lady",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/125-Lionle Richle-Three time A Lady.mp3"  },
+ 
+  {    "name_mp3": "126 - Lou Bega - Mambo Number 5",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/126 - Lou Bega - Mambo Number 5.mp3"  },
+ 
+  {    "name_mp3": "127 - Pink Floyd - Wish you were here",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/127 - Pink Floyd - Wish you were here.mp3"  },
+ 
+  {    "name_mp3": "128-Pink floyd- Shine on you crazy diamond.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/128-Pink floyd- Shine on you crazy diamond..mp3"  },
+ 
+  {    "name_mp3": "129-Mr. Mio - Mahna Mahna",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/129-Mr. Mio - Mahna Mahna.mp3"  },
+ 
+  {    "name_mp3": "130-Armostrong-It is a wonderful world.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/130-Armostrong-It is a wonderful world..mp3"  },
+ 
+  {    "name_mp3": "131-Big Mountain-Baby I Love Your Way",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/131-Big Mountain-Baby I Love Your Way.mp3"  },
+ 
+  {    "name_mp3": "132-Bill Medley And Jennifer Warnes- I've Had The Time Of My Life",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/132-Bill Medley And Jennifer Warnes- I've Had The Time Of My Life.mp3"  },
+ 
+  {    "name_mp3": "133-Billy Joel- Uptown Girl.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/133-Billy Joel- Uptown Girl..mp3"  },
+ 
+  {    "name_mp3": "134-Billy Joel- We Didn't Start The Fire.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/134-Billy Joel- We Didn't Start The Fire. .mp3"  },
+ 
+  {    "name_mp3": "135-Blondie - Maria",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/135-Blondie - Maria.mp3"  },
+ 
+  {    "name_mp3": "136-bonnie tyler- it's a heartache",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/136-bonnie tyler- it's a heartache.mp3"  },
+ 
+  {    "name_mp3": "137-Buggles - Video Killed The Radio Star",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/137-Buggles - Video Killed The Radio Star.mp3"  },
+ 
+  {    "name_mp3": "138-Buster Poindexter - Hit The Road Jack.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/138-Buster Poindexter - Hit The Road Jack..mp3"  },
+ 
+  {    "name_mp3": "139-Chris Isaak - Wicked Game",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/139-Chris Isaak - Wicked Game.mp3"  },
+ 
+  {    "name_mp3": "140-Cyndy lauper-Girls Just Want to Have Fun",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/140-Cyndy lauper-Girls Just Want to Have Fun.mp3"  },
+ 
+  {    "name_mp3": "141-Enigma - Return To Innocence.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/141-Enigma - Return To Innocence..mp3"  },
+ 
+  {    "name_mp3": "142-Eurythmics - Sweet Dreams",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/142-Eurythmics - Sweet Dreams.mp3"  },
+ 
+  {    "name_mp3": "143-Harold Faltermeyer - Axe",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/143-Harold Faltermeyer - Axe.mp3"  },
+ 
+  {    "name_mp3": "144-Irene Cara - What A Feeling",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/144-Irene Cara - What A Feeling.mp3"  },
+ 
+  {    "name_mp3": "145-Jennifer Warnes - The Time Of My Life",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/145-Jennifer Warnes - The Time Of My Life.mp3"  },
+ 
+  {    "name_mp3": "146-Joan Osborne - One Of Us",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/146-Joan Osborne - One Of Us.mp3"  },
+ 
+  {    "name_mp3": "147-John Paul Young - Love Is In The Air.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/147-John Paul Young - Love Is In The Air..mp3"  },
+ 
+  {    "name_mp3": "148-KC The Sunshine Band - Please Dont Go",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/148-KC The Sunshine Band - Please Dont Go.mp3"  },
+ 
+  {    "name_mp3": "149-Kim Carnes - Bette Davis Eyes",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/149-Kim Carnes - Bette Davis Eyes.mp3"  },
+ 
+  {    "name_mp3": "150-Kim Wilde - You Keep Me Hanging On.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/150-Kim Wilde - You Keep Me Hanging On..mp3"  },
+ 
+  {    "name_mp3": "151-Lipps Inc. - Funkytown.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/151-Lipps Inc. - Funkytown..mp3"  },
+ 
+  {    "name_mp3": "152-Men At Work - Down Under.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/152-Men At Work - Down Under..mp3"  },
+ 
+  {    "name_mp3": "154-Racey - Some Girls.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/154-Racey - Some Girls..mp3"  },
+ 
+  {    "name_mp3": "155-Ray Parker Jr. - Ghostbusters.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/155-Ray Parker Jr. - Ghostbusters..mp3"  },
+ 
+  {    "name_mp3": "156-Rick Astley - Never Gonna Give You Up.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/156-Rick Astley - Never Gonna Give You Up..mp3"  },
+ 
+  {    "name_mp3": "157-Rod Stewart - Sailing.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/157-Rod Stewart - Sailing..mp3"  },
+ 
+  {    "name_mp3": "158-Roxette - It Must Have Been Love.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/158-Roxette - It Must Have Been Love..mp3"  },
+ 
+  {    "name_mp3": "159-Blondie-Heart of glass.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/159-Blondie-Heart of glass..mp3"  },
+ 
+  {    "name_mp3": "160-Roxette - Joyride",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/160-Roxette - Joyride .mp3"  },
+ 
+  {    "name_mp3": "161- Santa Esmeralda - Don't Let Me Be Misunderstood",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/161- Santa Esmeralda - Don't Let Me Be Misunderstood.mp3"  },
+ 
+  {    "name_mp3": "162-Starship - Nothing s Gonna Stop Us Now.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/162-Starship - Nothing s Gonna Stop Us Now..mp3"  },
+ 
+  {    "name_mp3": "163-Survivor - Eye Of The Tiger.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/163-Survivor - Eye Of The Tiger..mp3"  },
+ 
+  {    "name_mp3": "164-Tears For Fears - Shout.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/164-Tears For Fears - Shout..mp3"  },
+ 
+  {    "name_mp3": "165-U2-Still Haven't Found What I'm Looking For.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/165-U2-Still Haven't Found What I'm Looking For..mp3"  },
+ 
+  {    "name_mp3": "166- Phil Collins - In The Air Tonight",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/166- Phil Collins - In The Air Tonight.mp3"  },
+ 
+  {    "name_mp3": "167-The Cover Girls - Wishing On A Star",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/167-The Cover Girls - Wishing On A Star.mp3"  },
+ 
+  {    "name_mp3": "168-Various Artist-Perfect Day.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/168-Various Artist-Perfect Day..mp3"  },
+ 
+  {    "name_mp3": "169- Hot choclate-you are sexy thing.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/169- Hot choclate-you are sexy thing..mp3"  },
+ 
+  {    "name_mp3": "170 - James Brown - I Got You (I Feel Good)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/170 - James Brown - I Got You (I Feel Good).mp3"  },
+ 
+  {    "name_mp3": "171-Train - Drops of Jupiter.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/171-Train - Drops of Jupiter..mp3"  },
+ 
+  {    "name_mp3": "172- U2-Where the streets have no name.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/172- U2-Where the streets have no name..mp3"  },
+ 
+  {    "name_mp3": "173-Bryan Adams-Every thing I do",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/173-Bryan Adams-Every thing I do.mp3"  },
+ 
+  {    "name_mp3": "174- Millennium (Robbie Williams)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/174- Millennium (Robbie Williams).mp3"  },
+ 
+  {    "name_mp3": "175-President - Coco Gambo",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/175-President - Coco Gambo.mp3"  },
+ 
+  {    "name_mp3": "176-Madonna - Beautiful Stranger.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/176-Madonna - Beautiful Stranger..mp3"  },
+ 
+  {    "name_mp3": "177-The Police - Every Breath You Take.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/177-The Police - Every Breath You Take..mp3"  },
+ 
+  {    "name_mp3": "178- Tina Charles - I Love To Love",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/178- Tina Charles - I Love To Love.mp3"  },
+ 
+  {    "name_mp3": "179- Rihanna - S&M (Come On)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/179- Rihanna - S%26M (Come On).mp3"  },
+ 
+  {    "name_mp3": "180- Sinéad O'Conno -nothing compare to you.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/180- Sinéad O'Conno -nothing compare to you..mp3"  },
+ 
+  {    "name_mp3": "181-F.R. David - Words Don't Come Easy.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/181-F.R. David - Words Don't Come Easy..mp3"  },
+ 
+  {    "name_mp3": "182-Hall & Oates - Maneater.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/182-Hall %26 Oates - Maneater..mp3"  },
+ 
+  {    "name_mp3": "183-Jose - I Will Follow Him.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/183-Jose - I Will Follow Him..mp3"  },
+ 
+  {    "name_mp3": "184-Bonnie Tyler - Total Eclipse Of The Heart.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/184-Bonnie Tyler - Total Eclipse Of The Heart..mp3"  },
+ 
+  {    "name_mp3": "185-Frankie Goes To Hollywood - Relax.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/185-Frankie Goes To Hollywood - Relax..mp3"  },
+ 
+  {    "name_mp3": "186- Kajagoogoo - Too Shy.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/186- Kajagoogoo - Too Shy..mp3"  },
+ 
+  {    "name_mp3": "187-Spandau Ballet - True.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/187-Spandau Ballet - True..mp3"  },
+ 
+  {    "name_mp3": "188-UB40 - Red Red Wine.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/188-UB40 - Red Red Wine..mp3"  },
+ 
+  {    "name_mp3": "189-Bonnie Tyler - Holding Out For A Hero.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/189-Bonnie Tyler - Holding Out For A Hero..mp3"  },
+ 
+  {    "name_mp3": "190-George Michael - Careless Whisper.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/190-George Michael - Careless Whisper..mp3"  },
+ 
+  {    "name_mp3": "191 - Dido - Here with me",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/191 - Dido - Here with me.mp3"  },
+ 
+  {    "name_mp3": "192 - Dido - Hunter",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/192 - Dido - Hunter.mp3"  },
+ 
+  {    "name_mp3": "193- Van Halen - Jump.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/193- Van Halen - Jump..mp3"  },
+ 
+  {    "name_mp3": "194 - Tina Arena - I Want To Spend My Lifetime Loving You",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/194 - Tina Arena - I Want To Spend My Lifetime Loving You .mp3"  },
+ 
+  {    "name_mp3": "195 - Cyndi Lauper - Girls Just Want To Have Fun",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/195 - Cyndi Lauper - Girls Just Want To Have Fun.mp3"  },
+ 
+  {    "name_mp3": "196 - Guns'n'Roses - Don't cry.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/196 - Guns'n'Roses - Don't cry..mp3"  },
+ 
+  {    "name_mp3": "197-Wham - Wake Me Up Before You Go Go",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/197-Wham - Wake Me Up Before You Go Go.mp3"  },
+ 
+  {    "name_mp3": "198-Dire Straits - Money For Nothing",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/198-Dire Straits - Money For Nothing.mp3"  },
+ 
+  {    "name_mp3": "199-Opus - Life Is Life",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/199-Opus - Life Is Life.mp3"  },
+ 
+  {    "name_mp3": "200-USA For Africa - We Are The World",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/200-USA For Africa - We Are The World.mp3"  },
+ 
+  {    "name_mp3": "201-Chris De Burgh - The Lady In Red",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/201-Chris De Burgh - The Lady In Red.mp3"  },
+ 
+  {    "name_mp3": "202-Cutting Crew - I Just Died In Your Arms.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/202-Cutting Crew - I Just Died In Your Arms..mp3"  },
+ 
+  {    "name_mp3": "203-Jefferson Starship - Nothing's Gonna Stop Us Now.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/203-Jefferson Starship - Nothing's Gonna Stop Us Now..mp3"  },
+ 
+  {    "name_mp3": "204-Kylie Minogue - The Locomotion",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/204-Kylie Minogue - The Locomotion.mp3"  },
+ 
+  {    "name_mp3": "205-Los Lobos - La Bamba.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/205-Los Lobos - La Bamba..mp3"  },
+ 
+  {    "name_mp3": "206-Blues Brothers-Everybody Needs Somebody to Love.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/206-Blues Brothers-Everybody Needs Somebody to Love..mp3"  },
+ 
+  {    "name_mp3": "207- The Rolling Stone- Angie",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/207- The Rolling Stone- Angie.mp3"  },
+ 
+  {    "name_mp3": "208- James Brown - 'Get Up (I Feel Like Being A) Sex Machine'",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/208- James Brown - 'Get Up (I Feel Like Being A) Sex Machine'.mp3"  },
+ 
+  {    "name_mp3": "210- Men At Work - Down Under",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/210- Men At Work - Down Under .mp3"  },
+ 
+  {    "name_mp3": "211- Kiss - I Was Made For Lovin' You.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/211- Kiss - I Was Made For Lovin' You..mp3"  },
+ 
+  {    "name_mp3": "212-Rick Astley-Never gonna give you up",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/212-Rick Astley-Never gonna give you up.mp3"  },
+ 
+  {    "name_mp3": "213- Golden Earring - Another 45 Miles.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/213- Golden Earring - Another 45 Miles. .mp3"  },
+ 
+  {    "name_mp3": "214- Bon Jovi - Always",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/214- Bon Jovi - Always.mp3"  },
+ 
+  {    "name_mp3": "215- Michael Jackson - Thriller.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/215- Michael Jackson - Thriller..mp3"  },
+ 
+  {    "name_mp3": "216- Guns 'n Roses - Paradise City",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/216- Guns 'n Roses - Paradise City.mp3"  },
+ 
+  {    "name_mp3": "217- Police - Roxanne",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/217- Police - Roxanne.mp3"  },
+ 
+  {    "name_mp3": "218- Queen - We Will Rock You.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/218- Queen - We Will Rock You..mp3"  },
+ 
+  {    "name_mp3": "219- Nirvana - Smells Like Teen Spirit",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/219- Nirvana - Smells Like Teen Spirit.mp3"  },
+ 
+  {    "name_mp3": "220- Guns 'n Roses - Knockin' On Heaven's Door",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/220- Guns 'n Roses - Knockin' On Heaven's Door.mp3"  },
+ 
+  {    "name_mp3": "221- Bruce Springsteen - Dancing In The Dark.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/221- Bruce Springsteen - Dancing In The Dark..mp3"  },
+ 
+  {    "name_mp3": "222- Phil Collins - You Can't Hurry Love.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/222- Phil Collins - You Can't Hurry Love..mp3"  },
+ 
+  {    "name_mp3": "223- Aerosmith - Crazy.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/223- Aerosmith - Crazy..mp3"  },
+ 
+  {    "name_mp3": "224- Clout - Substitute",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/224- Clout - Substitute .mp3"  },
+ 
+  {    "name_mp3": "225- Hot Gossip - Supernature.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/225- Hot Gossip - Supernature..mp3"  },
+ 
+  {    "name_mp3": "226- Temptations - Papa Was A Rolling Stone.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/226- Temptations - Papa Was A Rolling Stone..mp3"  },
+ 
+  {    "name_mp3": "227- Bruce Springsteen - Streets Of Philadelphia.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/227- Bruce Springsteen - Streets Of Philadelphia..mp3"  },
+ 
+  {    "name_mp3": "228- Meat Loaf - I'd Do Anything For Love (But I Won't Do That).",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/228- Meat Loaf - I'd Do Anything For Love (But I Won't Do That)..mp3"  },
+ 
+  {    "name_mp3": "229- Eurythmics - There Must Be An Angel.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/229- Eurythmics - There Must Be An Angel..mp3"  },
+ 
+  {    "name_mp3": "230- Simon & Garfunkel - Sounds Of Silence.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/230- Simon %26 Garfunkel - Sounds Of Silence..mp3"  },
+ 
+  {    "name_mp3": "231- Chicago - If You Leave Me Now.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/231- Chicago - If You Leave Me Now..mp3"  },
+ 
+  {    "name_mp3": "232 - Lynyrd Skynyrd - Sweet Home Albama",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/232 - Lynyrd Skynyrd - Sweet Home Albama.mp3"  },
+ 
+  {    "name_mp3": "233- David Bowie - Let's Dance",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/233- David Bowie - Let's Dance.mp3"  },
+ 
+  {    "name_mp3": "234 - Morris Albert - Feelings",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/234 - Morris Albert - Feelings.mp3"  },
+ 
+  {    "name_mp3": "235 - Blondie - One way or another",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/235 - Blondie - One way or another.mp3"  },
+ 
+  {    "name_mp3": "236 - Pet Shop Boys - Its a sin",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/236 - Pet Shop Boys - Its a sin.mp3"  },
+ 
+  {    "name_mp3": "237 - John Lennon - Happy Christmas (War is over)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/237 - John Lennon - Happy Christmas (War is over).mp3"  },
+ 
+  {    "name_mp3": "239- Suzanne Vega - Tom's Diner (1990)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/239- Suzanne Vega - Tom's Diner (1990).mp3"  },
+ 
+  {    "name_mp3": "240 - Crystal Waters - Gypsy Woman (1991)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/240 - Crystal Waters - Gypsy Woman (1991).mp3"  },
+ 
+  {    "name_mp3": "241 - No Mercy - Where Do You Go (1996)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/241 - No Mercy - Where Do You Go (1996).mp3"  },
+ 
+  {    "name_mp3": "242 - Cher - Believe (1999)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/242 - Cher - Believe (1999).mp3"  },
+ 
+  {    "name_mp3": "243-  BARRY MANILOW - COPACABANA",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/243-_ BARRY MANILOW - COPACABANA.mp3"  },
+ 
+  {    "name_mp3": "244-michael sembello--maniac-oma",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/244-michael_sembello--maniac-oma.mp3"  },
+ 
+  {    "name_mp3": "245- Goo Goo Dolls - Iris",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/245- Goo Goo Dolls - Iris_.mp3"  },
+ 
+  {    "name_mp3": "246- Youssou N'Dour & Neneh Cherry- 7 Seconds",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/246- Youssou N'Dour %26 Neneh Cherry- 7 Seconds.mp3"  },
+ 
+  {    "name_mp3": "247- Dolly Parton --9 To 5",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/247- Dolly Parton --9 To 5.mp3"  },
+ 
+  {    "name_mp3": "248-A Walter Murphy and The Big Apple Band- Fifth Of Beethoven .",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/248-A Walter Murphy and The Big Apple Band- Fifth Of Beethoven ..mp3"  },
+ 
+  {    "name_mp3": "249 - Art Garfunkel - Bright Eyes",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/249 - Art Garfunkel - Bright Eyes.mp3"  },
+ 
+  {    "name_mp3": "250-Rose Royce - Car wash",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/250-Rose Royce - Car wash.mp3"  },
+ 
+  {    "name_mp3": "251 - Radiohead - Creep",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/251 - Radiohead - Creep.mp3"  },
+ 
+  {    "name_mp3": "252 - Rod Stewart - Da Ya Think I'm Sexy",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/252 - Rod Stewart - Da Ya Think I'm Sexy.mp3"  },
+ 
+  {    "name_mp3": "253- Marshall Hain - Dancing In The City",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/253- Marshall Hain - Dancing In The City.mp3"  },
+ 
+  {    "name_mp3": "254- 10cc - Dreadlock Holiday",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/254- 10cc - Dreadlock Holiday.mp3"  },
+ 
+  {    "name_mp3": "255-Hot Chocalate-Every 1's A Winner -",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/255-Hot Chocalate-Every 1's A Winner - .mp3"  },
+ 
+  {    "name_mp3": "256-bill conti - gonna fly now (instrumental)-gti",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/256-bill_conti_-_gonna_fly_now_(instrumental)-gti.mp3"  },
+ 
+  {    "name_mp3": "257-Shirley Bassey-Goldfinger",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/257-Shirley Bassey-Goldfinger .mp3"  },
+ 
+  {    "name_mp3": "258- R. Kelly - I Believe I Can Fly",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/258- R. Kelly - I Believe I Can Fly.mp3"  },
+ 
+  {    "name_mp3": "259 - Reel 2 Real - I Like To Move It (1994)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/259 - Reel 2 Real - I Like To Move It (1994).mp3"  },
+ 
+  {    "name_mp3": "260. Chicago - If You Leave Me Now",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/260. Chicago - If You Leave Me Now.mp3"  },
+ 
+  {    "name_mp3": "261 - Roxette - It Must Have Been Love",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/261 - Roxette - It Must Have Been Love_.mp3"  },
+ 
+  {    "name_mp3": "262-Exile - Kiss You All Over",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/262-Exile - Kiss You All Over.mp3"  },
+ 
+  {    "name_mp3": "263-Smokie - Living Next Door To Alice",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/263-Smokie - Living Next Door To Alice.mp3"  },
+ 
+  {    "name_mp3": "264 - Celine Dion - My Heart Will Go On",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/264 - Celine Dion - My Heart Will Go On.mp3"  },
+ 
+  {    "name_mp3": "265 - George Harrison - My Sweet Lord",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/265 - George Harrison - My Sweet Lord.mp3"  },
+ 
+  {    "name_mp3": "266-Guns N' Roses - November Rain",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/266-Guns N' Roses - November Rain.mp3"  },
+ 
+  {    "name_mp3": "267-Smokie-Oh Carol -",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/267-Smokie-Oh Carol - .mp3"  },
+ 
+  {    "name_mp3": "268 - Roy Orbison - Oh Pretty Woman",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/268 - Roy Orbison - Oh Pretty Woman_.mp3"  },
+ 
+  {    "name_mp3": "269-Jean Michel Jarre-Oxygene (Part IV)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/269-Jean Michel Jarre-Oxygene (Part IV).mp3"  },
+ 
+  {    "name_mp3": "270 - Anita Ward - Ring My Bell",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/270 - Anita Ward - Ring My Bell.mp3"  },
+ 
+  {    "name_mp3": "271- Bill Haley - Rock Around The Clock",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/271- Bill Haley - Rock Around The Clock.mp3"  },
+ 
+  {    "name_mp3": "272-- George McCrae - Rock Your Baby",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/272-- George McCrae - Rock Your Baby.mp3"  },
+ 
+  {    "name_mp3": "273-Racey - Some Girls.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/273-Racey - Some Girls..mp3"  },
+ 
+  {    "name_mp3": "276 - Bee Gees - Tragedy",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/276 - Bee Gees - Tragedy.mp3"  },
+ 
+  {    "name_mp3": "277 - Haddaway - What Is Love (1993)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/277 - Haddaway - What Is Love (1993).mp3"  },
+ 
+  {    "name_mp3": "277- Haddaway - What Is Love",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/277- Haddaway - What Is Love.mp3"  },
+ 
+  {    "name_mp3": "278 - Dr. Hook - When You're In Love With A Beautiful Woman",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/278 - Dr. Hook - When You're In Love With A Beautiful Woman.mp3"  },
+ 
+  {    "name_mp3": "279 - The Who - Who Are You",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/279 - The Who - Who Are You.mp3"  },
+ 
+  {    "name_mp3": "280 - Led Zeppelin - Whole Lotta Love",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/280 - Led Zeppelin - Whole Lotta Love.mp3"  },
+ 
+  {    "name_mp3": "281 - Mariah Carey - Without You",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/281 - Mariah Carey - Without You.mp3"  },
+ 
+  {    "name_mp3": "282- Oasis - Wonderwall",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/282- Oasis - Wonderwall.mp3"  },
+ 
+  {    "name_mp3": "283 - The Ronettes - Be My Baby",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/283 - The Ronettes - Be My Baby.mp3"  },
+ 
+  {    "name_mp3": "284 - Pink Floyd - Marooned",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/284 - Pink Floyd - Marooned.mp3"  },
+ 
+  {    "name_mp3": "285- Mungo Jerry - In The Summertime",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/285- Mungo Jerry - In The Summertime.mp3"  },
+ 
+  {    "name_mp3": "285-Mungo Jerry - In The Summertime.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/285-Mungo Jerry - In The Summertime..mp3"  },
+ 
+  {    "name_mp3": "286-Pink Floyd- Any colour you Like. ( Instrument.)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/286-Pink Floyd- Any colour you Like. ( Instrument.).mp3"  },
+ 
+  {    "name_mp3": "287 - Tom Jones - I (Who Have Nothing)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/287 - Tom Jones - I (Who Have Nothing).mp3"  },
+ 
+  {    "name_mp3": "287-Tom Jones - I (Who Have Nothing).",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/287-Tom Jones - I (Who Have Nothing)..mp3"  },
+ 
+  {    "name_mp3": "288-Tom Jones - She's a Lady.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/288-Tom Jones - She's a Lady..mp3"  },
+ 
+  {    "name_mp3": "289 - Don McLean - American Pie",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/289 - Don McLean - American Pie.mp3"  },
+ 
+  {    "name_mp3": "290 - Hot Butter - Popcorn (Instrumental)",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/290 - Hot Butter - Popcorn (Instrumental).mp3"  },
+ 
+  {    "name_mp3": "291- - Donnie Elbert - Where Did Our Love Go",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/291- - Donnie Elbert - Where Did Our Love Go.mp3"  },
+ 
+  {    "name_mp3": "292-Leo Sayer - The Show Must Go On.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/292-Leo Sayer - The Show Must Go On..mp3"  },
+ 
+  {    "name_mp3": "293- Hot Chocolate - Emma.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/293- Hot Chocolate - Emma..mp3"  },
+ 
+  {    "name_mp3": "294-Paul Anka & Odia Coates - (You're) Having My Baby.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/294-Paul Anka %26 Odia Coates - (You're) Having My Baby..mp3"  },
+ 
+  {    "name_mp3": "295-Bimbo Jet - El Bimbo",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/295-Bimbo Jet - El Bimbo.mp3"  },
+ 
+  {    "name_mp3": "296-The Average White Band - Pick Up the Pieces.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/296-The Average White Band - Pick Up the Pieces..mp3"  },
+ 
+  {    "name_mp3": "297-Leo Sayer - When I Need You",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/297-Leo Sayer - When I Need You.mp3"  },
+ 
+  {    "name_mp3": "298-Leo Sayer - I Can't Stop Loving You",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/298-Leo Sayer - I Can't Stop Loving You.mp3"  },
+ 
+  {    "name_mp3": "299-The Tavares - More Than A Woman.",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/299-The Tavares - More Than A Woman..mp3"  },
+ 
+  {    "name_mp3": "300-Suzi Quatro - If You Can't Give Me Love",    "link_mp3": "https://archive.org/download/062BobDylanWhereAreYouTonight/300-Suzi Quatro - If You Can't Give Me Love.mp3"  }
+ 
+
+
+
+
+],
+"Wallpaper": [
+
+ {    "image": "https://images.wallpapersden.com/image/download/pink-sky-in-urban-city_64746_4000x6000.jpg"  },
+ {    "image": "https://wallpapercave.com/wp/wp3761429.jpg"  },
+ {    "image": "https://wallpapercave.com/wp/wp6235495.jpg"  },
+ {    "image": "https://wallpapercave.com/wp/wp5975713.jpg"  },
+ {    "image": "https://w.wallhaven.cc/full/73/wallhaven-737jwy.jpg"  },
+ {    "image": "file:///android_asset/wallpaper (1).jpg"  },
+ {    "image": "file:///android_asset/wallpaper (2).jpg"  },
+ {    "image": "file:///android_asset/wallpaper (3).jpg"  },
+ {    "image": "file:///android_asset/wallpaper (4).jpg"  },
+ {    "image": "file:///android_asset/wallpaper (5).jpg"  },
+ {    "image": "file:///android_asset/wallpaper (6).jpg"  },
+ {    "image": "file:///android_asset/wallpaper (7).jpg"  }
+
+]
+}
