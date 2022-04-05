@@ -1,0 +1,155 @@
+{
+"Ads": [
+{
+
+//  STATUS_APP = "0" must set 0 if your app still live on playstore
+//  and STATUS_APP = "1" if your app "suspend"
+//  fill LINK_REDIRECT with new link app
+"STATUS_APP" : "0",
+"LINK_REDIRECT" : "https://play.google.com/store/apps/details?id=com.package.name",
+
+// memanggil data dari json "online" atau json "offline"
+//  online atau offline
+// jika online maka akan memanggil data mp3 wallpaper yang ada di json online kalian
+//  jika offline maka akan mmanggil data mp3 wallpaper yang ada di json folder asset
+// online offline huruf kecil
+"MODE_MP3_ONLINE_OFFLINE" : "online",
+
+
+"MODE_BACKUP_ADS" : true,
+"MODE_NO_ADS" : true,
+"ADS_ON_START" : false, // CTR NAIK PESAT
+"ADS_ON_EXIT_DIALOG" : true, // CTR NAIK PESAT
+
+"JSON_POPUP_WAIT" : "Server Json Ready . . .",
+"MODE_NO_ADS_TRUE" : "Pro Version Actived",
+
+// PENGATURAN IKLAN
+// ADMOB      backup unity backup startapp
+// FAN        backup unity backup startapp
+// UNITY      backup startapp
+// TAPDAQ     backup unity backup startapp
+"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_UNITY" : false,
+"PENGATURAN_IKLAN_BANNER" : "ADMOB",
+"PENGATURAN_IKLAN_INTER" : "ADMOB",
+"INTER_COUNT" : 20,
+
+"ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
+"ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
+"ADMOB_OPENADS" : "BIARKAN KOSONG",
+
+"FAN_INTER" : "YOUR_PLACEMENT_ID",
+"FAN_BANNER" : "YOUR_PLACEMENT_ID",
+
+"UNITY_BANNER" : "banner",
+"UNITY_INTERSTITIAL" : "interstitial",
+"UNITY_GAME_ID" : "12345",
+
+"STARTAPPID" : "123154",
+"ENABLE_STRAP" : true,
+"ENABLE_STRAP_SPLAHSCREEN" : false,
+
+"TAPDAQ_APP_ID" : "6120a5b008fe6c2d735d6a78",
+"TAPDAQ_CLIENT_KEY" : "fb5af849-b396-473b-a139-eecc9c3a4716",
+
+//  Exit Dialog
+//  Bantu Rating 5 bintang agar kami dapat terus memberikan informasi informasi terbaru
+//  help give us a 5 star rating, so we keep the spirit of providing the latest updates
+//  jika shre button "true" maka more button berubah fungsi menjadi share - more url hilang menjadi share
+"EXIT_POPUP_DIALOG" : "
+help give us a 5 star rating
+
+so we keep the spirit of providing the latest updates
+
+click rate now button
+",
+"RATE_BUTTON" : "Rate Now",
+"LATER_BUTTON" : "Rate Later",
+"ENABLE_SHARE_BUTTON" : true,
+"SHARE_TXT" : "
+this the best apps ever, ive try it and so awesome
+
+you need to try download this too bro
+",
+"MORE_BUTTON" : "Share Via Whatsapp",
+"URL_MORE_APPS" : "https://play.google.com/store/apps/details?id=com.package.name"
+
+}
+]
+,"Mp3": [
+  {    "name_mp3": "(You Want To) Make a Memory",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - (You Want To) Make a Memory.mp3"  },
+ 
+{    "name_mp3": "Always",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Always.mp3"  },
+ 
+{    "name_mp3": "Bad Medicine",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Bad Medicine.mp3"  },
+ 
+{    "name_mp3": "Bed of Roses",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Bed of Roses.mp3"  },
+ 
+{    "name_mp3": "Blaze of Glory",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - Blaze of Glory.mp3"  },
+ 
+{    "name_mp3": "Blood On Blood",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - Blood On Blood.mp3"  },
+ 
+{    "name_mp3": "Born to Be My Baby",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Born to Be My Baby.mp3"  },
+ 
+{    "name_mp3": "Have a Nice Day",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Have a Nice Day.mp3"  },
+ 
+{    "name_mp3": "I'll Be There for You",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - I'll Be There for You.mp3"  },
+ 
+{    "name_mp3": "I'll Sleep When I'm Dead",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - I'll Sleep When I'm Dead.mp3"  },
+ 
+{    "name_mp3": "In and Out of Love",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - In and Out of Love.mp3"  },
+ 
+{    "name_mp3": "In These Arms",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - In These Arms.mp3"  },
+ 
+{    "name_mp3": "It's My Life",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - It's My Life.mp3"  },
+ 
+{    "name_mp3": "Keep the Faith",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - Keep the Faith.mp3"  },
+ 
+{    "name_mp3": "Lay Your Hands On Me (Edit)",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Lay Your Hands On Me (Edit).mp3"  },
+ 
+{    "name_mp3": "Livin' On a Prayer",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Livin' On a Prayer.mp3"  },
+ 
+{    "name_mp3": "Lost Highway",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - Lost Highway.mp3"  },
+ 
+{    "name_mp3": "No Apologies",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - No Apologies.mp3"  },
+ 
+{    "name_mp3": "Runaway",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - Runaway.mp3"  },
+ 
+{    "name_mp3": "Someday I'll Be Saturday Night",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - Someday I'll Be Saturday Night.mp3"  },
+ 
+{    "name_mp3": "The More Things Change",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - The More Things Change.mp3"  },
+ 
+{    "name_mp3": "These Days",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - These Days.mp3"  },
+ 
+{    "name_mp3": "This Ain't a Love Song",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - This Ain't a Love Song.mp3"  },
+ 
+{    "name_mp3": "This Is Love This Is Life",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - This Is Love This Is Life.mp3"  },
+ 
+{    "name_mp3": "Wanted Dead or Alive",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Wanted Dead or Alive.mp3"  },
+ 
+{    "name_mp3": "We Weren't Born to Follow",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - We Weren't Born to Follow.mp3"  },
+ 
+{    "name_mp3": "We Weren't Born to Follow (NMS Live - 2010)",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - We Weren't Born to Follow (NMS Live - 2010).mp3"  },
+ 
+{    "name_mp3": "What Do You Got",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - What Do You Got.mp3"  },
+ 
+{    "name_mp3": "When We Were Beautiful",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD2/Bon Jovi - When We Were Beautiful.mp3"  },
+ 
+{    "name_mp3": "Who Says You Can't Go Home",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - Who Says You Can't Go Home.mp3"  },
+ 
+{    "name_mp3": "You Give Love a Bad Name",    "link_mp3": "https://archive.org/download/bon-jovi-greatest-hits-the-ultimate-collection/(2010) Bon Jovi - Greatest Hits - The Ultimate Collection/CD1/Bon Jovi - You Give Love a Bad Name.mp3"  }
+ 
+
+
+
+
+
+
+],
+"Wallpaper": [
+
+
+ {    "image": "file:///android_asset/wallpaper (7).jpg"  }
+
+]
+}
